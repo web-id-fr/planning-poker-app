@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 
 export const Number = () => {
   const [selectedText, setSelectedText] = useState();
@@ -10,18 +10,20 @@ export const Number = () => {
     setSelectedText(number)
   };
 
+  const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
   return (
     <>
       <View style={style.container}>
-        {numbers.map((number, index) => (
+        {items.map((item, index) => (
           <TouchableOpacity
             onPress={() => {
-              handleClick(number);
+              handleClick(item);
             }}
             key={index}
             style={style.cardStyle}
           >
-            <Text style={style.textStyle}>{number}</Text>
+            <Text style={style.itemStyle}>{item}</Text>
           </TouchableOpacity>
         ))}
       </View>
@@ -45,7 +47,7 @@ var style = StyleSheet.create({
     justifyContent: "center",
     backgroundColor: "lightpink"
   },
-  textStyle: {
+  itemStyle: {
     textAlign: "center",
     textAlignVertical: "center",
   },
