@@ -33,12 +33,12 @@ export const Emoji = () => {
 
 const styles = StyleSheet.create({
   mainContainer: {
-    height: "30%",
+    height: 100,
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
   },
   emojiContainer: {
-    height: "40%",
+    height: 400,
   },
 });
