@@ -1,20 +1,30 @@
 import React, { useState } from "react";
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
-
-
+import { StyleSheet, Text, View, TouchableOpacity, Button } from "react-native";
 
 export const Number = () => {
   const [selectedText, setSelectedText] = useState();
+  const [isSelected, setisSelected] = useState(false);
 
   const handleClick = (number) => {
-    setSelectedText(number)
+    setSelectedText(number);
+    setisSelected(true);
   };
 
-  const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  const reset = () => {
+    setisSelected(false);
+  };
+
+  const items = [0, "1/2", 1, 2, 3, 5, 8, 13, 20, 40, 100, "?"];
 
   return (
     <>
-      <View style={style.container}>
+      {isSelected && (
+        <View>
+          <Button onPress={reset} title="Reset" />
+        </View>
+      )}
+
+      <View style={[style.container, isSelected ? { display: "none" } : ""]}>
         {items.map((item, index) => (
           <TouchableOpacity
             onPress={() => {
@@ -27,7 +37,11 @@ export const Number = () => {
           </TouchableOpacity>
         ))}
       </View>
-      <Text style={style.textSelected}>{selectedText}</Text>
+      {isSelected && (
+        <View style={style.selectedCard}>
+          <Text style={style.selectedCardText}>{selectedText}</Text>
+        </View>
+      )}
     </>
   );
 };
@@ -43,15 +57,24 @@ var style = StyleSheet.create({
     flexBasis: "40%",
     marginTop: 10,
     marginRight: 10,
-    height: 110,
+    height: 200,
     justifyContent: "center",
-    backgroundColor: "lightpink"
+    backgroundColor: "lightpink",
   },
   itemStyle: {
     textAlign: "center",
     textAlignVertical: "center",
   },
-  textSelected: {
-   marginTop: 50
+  selectedCard: {
+    height: 350,
+    width: 350,
+    justifyContent: "center",
+    backgroundColor: "lightblue",
+  },
+  selectedCardText: {
+    textAlign: "center",
+    textAlignVertical: "center",
+    fontSize: 150,
+    fontWeight: "bold",
   },
 });
