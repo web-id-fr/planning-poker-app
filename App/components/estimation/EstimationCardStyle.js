@@ -11,11 +11,7 @@ export const CardStyle = {
     backgroundColor: "lightpink",
 },
 "cardStyle--selected": {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    right: 0,
-    height: 400,
+    height: 350,
     flexBasis: "100%",
     justifyContent: "flex-end",
     backgroundColor: "lightpink",

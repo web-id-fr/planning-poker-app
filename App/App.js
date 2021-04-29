@@ -1,22 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { StyleSheet, Text, View, ScrollView } from "react-native";
-import { Route, NativeRouter, Link } from "react-router-native";
 import {Number} from "./pages/Number";
 import {Emoji} from "./pages/Emoji";
 
 
 export default function App() {
+  // Possible values for appStep : estimation-selection, emoji-selection, results
+  const [appStep, setAppStep] = useState("estimation-selection");
+
   return (
     <ScrollView>
-      <NativeRouter>
       <View style={styles.container}>
-          <Number />
-        <Link to="/emoji">
-          <Text>Emoji page</Text>
-        </Link>
-        <Route path="/emoji" component={Emoji} />
+        <Number appStep={appStep} setAppStep={setAppStep} />
+        {appStep !== "estimation-selection" ? 
+          <Emoji appStep={appStep} setAppStep={setAppStep} /> : null
+        }
       </View>
-    </NativeRouter>
     </ScrollView>
     
   );

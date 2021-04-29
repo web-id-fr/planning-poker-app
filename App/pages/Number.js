@@ -3,9 +3,7 @@ import { StyleSheet, Text, View, TouchableOpacity, Button } from "react-native";
 
 import { EstimationCard } from "../components/estimation/EstimationCard";
 
-export const Number = () => {
-  // Possible values for appStep : estimation-selection, emoji-selection, results
-  const [appStep, setAppStep] = useState("estimation-selection");
+export const Number = ({appStep, setAppStep}) => {
   const [selectedCard, setSelectedCard] = useState(null);
 
   const handleCardClick = (selectedCardIndex) => {
@@ -21,7 +19,7 @@ export const Number = () => {
   const items = [0, "1/2", 1, 2, 3, 5, 8, 13, 20, 40, 100, "?"];
 
   return (
-      <View style={style.container}>
+      <View style={[selectedCard ? style["container--selected"] : style.container]}>
         {items.map((item, index) => (
           appStep === "estimation-selection" || index === selectedCard ?
             <EstimationCard index={index} cardTitle={item} handleCardClick={handleCardClick}/> :
@@ -35,6 +33,13 @@ var style = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 80,
+    flexDirection: "row",
+    justifyContent: "center",
+    flexWrap: "wrap",
+  },
+  "container--selected": {
+    flex: 1,
+    paddingTop: 0,
     flexDirection: "row",
     justifyContent: "center",
     flexWrap: "wrap",

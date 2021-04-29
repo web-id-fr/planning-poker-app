@@ -4,7 +4,7 @@ import { NativeRouter, Route, Link } from "react-router-native";
 
 import EmojiSelector from "react-native-emoji-selector";
 
-export const Emoji = () => {
+export const Emoji = ({appStep, setAppStep}) => {
   const [showEmojiKeyboard, setShowEmojiKeyboard] = useState(false)
   const [selectedEmoji, setSelectedEmoji] = useState('😇')
   const handleEmojiKeyboard = () => setShowEmojiKeyboard(!showEmojiKeyboard);
