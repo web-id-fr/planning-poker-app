@@ -17,6 +17,12 @@ export const CardStyle = {
     marginTop: 40,
     flexBasis: "90%",
   },
+  "cardStyle--large": {
+    height: 600,
+    flexBasis: "100%",
+    justifyContent: "flex-end",
+    backgroundColor: "lightpink",
+  },
   itemStyle: {
     textAlign: "center",
     textAlignVertical: "center",

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { SafeAreaView } from "react-native";
-import { StyleSheet, Text, View, TouchableOpacity, Button } from "react-native";
+import { StyleSheet, View } from "react-native";
 
 import { EstimationCard } from "../components/estimation/EstimationCard";
 
@@ -21,10 +21,10 @@ export const Number = ({appStep, setAppStep}) => {
 
   return (
     <SafeAreaView>
-      <View style={[selectedCard ? style["container--selected"] : style.container]}>
+      <View style={[selectedCard !== null ? style["container--selected"] : style.container]}>
         {items.map((item, index) => (
           appStep === "estimation-selection" || index === selectedCard ?
-            <EstimationCard key={index} index={index} cardTitle={item} handleCardClick={handleCardClick}/> :
+            <EstimationCard key={item} index={index} cardTitle={item} handleCardClick={handleCardClick} appStep={appStep} /> :
             null
         ))}
       </View>
