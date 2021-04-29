@@ -34,32 +34,9 @@ export const Number = () => {
 var style = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop: 80,
     flexDirection: "row",
     justifyContent: "center",
     flexWrap: "wrap",
   }
-  // cardStyle: {
-  //   flexBasis: "40%",
-  //   marginTop: 10,
-  //   marginRight: 10,
-  //   height: 200,
-  //   justifyContent: "center",
-  //   backgroundColor: "lightpink",
-  // },
-  // itemStyle: {
-  //   textAlign: "center",
-  //   textAlignVertical: "center",
-  // },
-  // selectedCard: {
-  //   height: 350,
-  //   width: 350,
-  //   justifyContent: "center",
-  //   backgroundColor: "lightblue",
-  // },
-  // selectedCardText: {
-  //   textAlign: "center",
-  //   textAlignVertical: "center",
-  //   fontSize: 150,
-  //   fontWeight: "bold",
-  // },
 });

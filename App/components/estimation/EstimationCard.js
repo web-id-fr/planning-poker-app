@@ -25,7 +25,7 @@ export const EstimationCard = (props) => {
           isSelected ? style["cardStyle--selected"] : style["cardStyle--default"]
         ]}
       >
-        <Text style={style.itemStyle}>{cardTitle}</Text>
+        <Text style={[isSelected ? style["itemStyle--selected"] : style.itemStyle ]}>{cardTitle}</Text>
       </TouchableOpacity>
   );
 };
