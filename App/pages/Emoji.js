@@ -1,7 +1,7 @@
 import React,  { useState } from "react";
 import { StyleSheet, Text, Button, View } from "react-native";
 
-// import EmojiSelector from "react-native-emoji-selector";
+import EmojiSelector from "react-native-emoji-selector";
 import { EmojiButton } from "../components/emoji/EmojiButton";
 
 export const Emoji = ({appStep, setAppStep}) => {
@@ -14,6 +14,7 @@ export const Emoji = ({appStep, setAppStep}) => {
   return (
     <View>
       <EmojiButton />
+      
     </View>
   );
 };

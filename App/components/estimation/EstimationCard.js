@@ -4,7 +4,12 @@ import { CardStyle } from "./EstimationCardStyle";
 import { theme } from "../../infrastructure/theme";
 import { LinearGradient } from "expo-linear-gradient";
 
-export const EstimationCard = ({ index, cardTitle, handleCardClick, appStep } ) => {
+export const EstimationCard = ({
+  index,
+  cardTitle,
+  handleCardClick,
+  appStep,
+}) => {
   const style = StyleSheet.create(CardStyle);
 
   const [isSelected, setIsSelected] = useState(false);
@@ -17,19 +22,19 @@ export const EstimationCard = ({ index, cardTitle, handleCardClick, appStep } ) 
   const getStyle = () => {
     switch (appStep) {
       case "estimation-selection":
-        return style["cardStyle--default"]
+        return style["cardStyle--default"];
         break;
       case "emoji-selection":
-        return style["cardStyle--selected"]
+        return style["cardStyle--selected"];
         break;
       case "results":
-        return style["cardStyle--large"]
-        break;   
+        return style["cardStyle--large"];
+        break;
       default:
-        return style["cardStyle--default"]
+        return style["cardStyle--default"];
         break;
     }
-  }
+  };
 
   return (
     <TouchableOpacity
@@ -37,16 +42,10 @@ export const EstimationCard = ({ index, cardTitle, handleCardClick, appStep } ) 
         handleClick(index);
       }}
       key={index}
-      style={[
-        style.cardStyle,
-        isSelected ? style["cardStyle--selected"] : style["cardStyle--default"],
-      ]}
+      style={[style.cardStyle, getStyle()]}
     >
       <LinearGradient
-        style={[
-          style.cardStyle,
-          getStyle()
-        ]}
+        style={{flex:1}}
         colors={[theme.colors.card.primary, theme.colors.card.secondary]}
       >
         <Text
