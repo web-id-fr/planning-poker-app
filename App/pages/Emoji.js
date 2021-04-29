@@ -1,6 +1,5 @@
 import React,  { useState } from "react";
 import { StyleSheet, Text, Button, View } from "react-native";
-import { NativeRouter, Route, Link } from "react-router-native";
 
 import EmojiSelector from "react-native-emoji-selector";
 
