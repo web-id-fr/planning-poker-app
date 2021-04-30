@@ -5,6 +5,7 @@ Préprod : -
 ## Prérequis
 - PHP 8.0
 - Composer 2
+- [Mercure.rocks hub](https://mercure.rocks/docs/hub/install)
 
 ## Installer les dépendances
 Installer la base de données :  
