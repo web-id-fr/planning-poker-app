@@ -1,29 +1,37 @@
 import { theme } from "../../infrastructure/theme/index";
 
 export const CardStyle = {
-  cardStyle: {
+  "cardStyle": {
     height: theme.sizes.card_height.small,
   },
   "cardStyle--default": {
     flexBasis: "40%",
     justifyContent: "center",
-    marginTop: 20,
-    marginRight: 20,
-    padding: 8,
-    borderRadius: 20,
+    margin: 8
   },
   "cardStyle--selected": {
     height: theme.sizes.card_height.medium,
-    marginTop: 40,
-    flexBasis: "90%",
+    margin: 0,
+    flexBasis: "100%",
   },
   "cardStyle--large": {
     height: 600,
     flexBasis: "100%",
-    justifyContent: "flex-end",
-    backgroundColor: "lightpink",
   },
-  itemStyle: {
+
+  "linearGradient": {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 30
+  },
+  "linearGradient--selected": {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "flex-end"
+  },
+
+  "cardText": {
     textAlign: "center",
     textAlignVertical: "center",
     color: theme.colors.card.white,
@@ -31,20 +39,10 @@ export const CardStyle = {
     fontSize: theme.sizes.card_font.medium,
     flexWrap: "wrap",
   },
-  "itemStyle--selected": {
+  "cardText--selected": {
     paddingBottom: 40,
     fontSize: theme.sizes.card_font.large,
     color: theme.colors.card.white,
     fontFamily: theme.fonts.card,
-  },
-  linearGradient: {
-    alignItems: "center",
-    justifyContent: "center",
-    borderRadius: 5,
-    height: theme.sizes.card_height.small,
-    width: "100%",
-  },
-  linearGradientSelected: {
-    height: theme.sizes.card_height.medium,
-  },
+  }
 };

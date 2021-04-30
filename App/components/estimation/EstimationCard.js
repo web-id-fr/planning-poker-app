@@ -45,11 +45,11 @@ export const EstimationCard = ({
       style={[style.cardStyle, getStyle()]}
     >
       <LinearGradient
-        style={{flex:1}}
+        style={[isSelected ? style["linearGradient--selected"] : style.linearGradient]}
         colors={[theme.colors.card.primary, theme.colors.card.secondary]}
       >
         <Text
-          style={[isSelected ? style["itemStyle--selected"] : style.itemStyle]}
+          style={[isSelected ? style["cardText--selected"] : style.cardText]}
         >
           {cardTitle}
         </Text>
