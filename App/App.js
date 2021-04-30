@@ -34,7 +34,7 @@ export default function App() {
           <View style={styles.container}>
             <Number appStep={appStep} setAppStep={setAppStep} />
             {appStep !== "estimation-selection" ? (
-              <Emoji appStep={appStep} setAppStep={setAppStep} />
+              <Emoji appStep={appStep} setAppStep={setAppStep} style={styles.emoji} />
             ) : null}
           </View>
         </ScrollView>
@@ -47,5 +47,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
+  },
+  emoji: {
+    flex: 1
   },
 });

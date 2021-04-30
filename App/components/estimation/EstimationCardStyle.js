@@ -23,12 +23,13 @@ export const CardStyle = {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    borderRadius: 30
+    borderRadius: 20
   },
   "linearGradient--selected": {
     flex: 1,
     alignItems: "center",
-    justifyContent: "flex-end"
+    justifyContent: "flex-end",
+    borderRadius: 0
   },
 
   "cardText": {

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { SafeAreaView } from "react-native";
 import { StyleSheet, View } from "react-native";
 
 import { EstimationCard } from "../components/estimation/EstimationCard";

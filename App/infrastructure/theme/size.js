@@ -4,7 +4,7 @@ export const sizes = {
     small: 200,
   },
   card_font: {
-    large: 100,
+    large: 150,
     medium: 50,
   }
 };
