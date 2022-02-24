@@ -13,6 +13,7 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "eject": "react-scripts eject",
+        "serve": "node -r esm src/server.js",
         "pretty": "prettier --write './src/' --config .prettierrc"
     },
     "eslintConfig": {
@@ -33,6 +34,8 @@
         ]
     },
     "devDependencies": {
-        "prettier": "^2.5.1"
+        "esm": "^3.2.25",
+        "prettier": "^2.5.1",
+        "sass": "^1.49.8"
     }
 }

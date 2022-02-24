@@ -1,0 +1,13 @@
+.board {
+    margin: 5px;
+    padding: 5px;
+    border: solid 2px grey;
+
+    &.active {
+        border-color: red;
+    }
+
+    button.active {
+        background-color: salmon;
+    }
+}

@@ -14,6 +14,7 @@ const voteStart = (G, ctx) => {
 }
 
 const Game = {
+    name: 'planning-poker',
     setup: () => ({ votes: {} }),
 
     moves: {

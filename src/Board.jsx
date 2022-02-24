@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import './Board.css'
+import './Board.scss'
 
 export const Board = ({
                           playerID,
