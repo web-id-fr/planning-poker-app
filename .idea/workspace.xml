@@ -2,126 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb385c9-b117-4846-8c44-098e4eee11be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/App/.expo-shared/assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/assets/adaptive-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/assets/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/assets/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/assets/splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/components/emoji/button/EmojiButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/components/emoji/button/EmojiButtonStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/components/emoji/keyboard/EmojiKeyboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/components/emoji/keyboard/EmojiKeyboardStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/components/estimation/EstimationCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/components/estimation/EstimationCardStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/infrastructure/theme/color.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/infrastructure/theme/font.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/infrastructure/theme/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/infrastructure/theme/size.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/pages/Emoji.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/pages/Number.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.styleci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Console/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Exceptions/Handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Middleware/Authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Providers/AppServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Providers/AuthServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Providers/EventServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Providers/TelescopeServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/artisan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bootstrap/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/cors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/hashing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/telescope.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/seeders/DatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/local-php-security-checker-linux" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/local-php-security-checker-macos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/local-php-security-checker-windows.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/phpcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/phpstan.neon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/vendor/telescope/app-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/vendor/telescope/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/vendor/telescope/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/vendor/telescope/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/vendor/telescope/mix-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/lang/en/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/lang/en/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/lang/en/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/lang/en/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/channels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/console.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/storage/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/storage/app/public/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/storage/framework/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/storage/framework/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/storage/framework/cache/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/storage/framework/sessions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/storage/framework/testing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/storage/framework/views/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/storage/logs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tests/CreatesApplication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tests/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tests/Unit/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/webpack.mix.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlanningPoker.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +18,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="25Y9aOJqAhAG0cMnXeaRMjPCOIV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -142,7 +32,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,11 +50,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645693217822</updated>
-      <workItem from="1645693219037" duration="301000" />
+      <workItem from="1645693219037" duration="947000" />
     </task>
+    <task id="LOCAL-00001" summary=":tada: init react project">
+      <created>1645693545544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645693545544</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":tada: init react project">
+      <created>1645693556188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645693556188</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":fire: remove test add pretty and boardgame">
+      <created>1645694054158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645694054158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value=":tada: init react project" />
+    <MESSAGE value=":fire: remove test add pretty and boardgame" />
+    <option name="LAST_COMMIT_MESSAGE" value=":fire: remove test add pretty and boardgame" />
   </component>
 </project>
