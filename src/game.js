@@ -1,21 +1,25 @@
 const vote = (G, ctx, vote) => {
-    console.log('vote', ctx, vote)
     G.votes[ctx.playerID] = vote;
 
-    if (ctx.numPlayers === Object.keys(G.votes).length) {
+    if (G.players.length === Object.keys(G.votes).length) {
         ctx.events.setActivePlayers({ all: 'compare' });
     }
 }
 
-const voteStart = (G, ctx) => {
+const voteStart = (G, ctx, players) => {
+    G.players = players;
     G.votes = {};
-    console.log('voteStart')
     ctx.events.setActivePlayers({ all: 'vote' });
 }
 
+export const GAME_PLANNING_POKER = 'planning-poker'
+
 const Game = {
-    name: 'planning-poker',
-    setup: () => ({ votes: {} }),
+    name: GAME_PLANNING_POKER,
+    setup: () => ({
+        votes: {},
+        players: [],
+    }),
 
     moves: {
         voteStart,
